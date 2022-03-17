@@ -15,3 +15,11 @@ cd isaac_item_spawner
 cargo skyline release
 ```
 your files will then appear in `target/release.zip`
+## Installation
+#### Prerequisites
+* [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
+* A supported version of TBOI - currently only base AB+ 
+Copy subskd9 and main.npdm to /atmosphere/contents/010021C000B6A000/exefs
+Copy the releases.zip file to /atmosphere/contents/010021C000B64A000/romfs/plugins
+
+or alternatively, just run `cargo skyline install` from the project directory (see the Building section)
