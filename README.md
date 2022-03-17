@@ -24,4 +24,4 @@ Copy subskd9 and main.npdm to /atmosphere/contents/010021C000B6A000/exefs
 
 Copy the releases.zip file to /atmosphere/contents/010021C000B64A000/romfs/plugins
 
-or alternatively, just run `cargo skyline install` from the project directory (see the Building section)
+**or alternatively, just run `cargo skyline install` from the project directory (see the Building section)**
