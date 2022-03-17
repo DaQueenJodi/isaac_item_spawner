@@ -1,18 +1,20 @@
 [package]
-name = "skyline_rs_template"
+name = "isek_item_spawner"
 version = "0.1.0"
-authors = ["jam1garner <jam1.mcleod@hotmail.com>"]
+#authors = "Jodi"
 edition = "2018"
 
 [package.metadata.skyline]
-titleid = "01006A800016E000"
+titleid = "010021C000B6A000"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
+#bindgen = "0.59.2"
+lazy_static = "1.4.0"
+nnsdk = "0.1.0"
 skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
-skyline_smash = { git = "https://github.com/ultimate-research/skyline-smash.git" }
 
 [profile.dev]
 panic = "abort"
